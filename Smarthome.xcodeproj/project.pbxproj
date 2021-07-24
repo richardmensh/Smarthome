@@ -9,12 +9,63 @@
 /* Begin PBXBuildFile section */
 		0F3A5B0A2664F3A5001E2D1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A5B092664F3A5001E2D1E /* AppDelegate.swift */; };
 		0F3A5B0C2664F3A5001E2D1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A5B0B2664F3A5001E2D1E /* SceneDelegate.swift */; };
-		0F3A5B0E2664F3A5001E2D1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A5B0D2664F3A5001E2D1E /* ViewController.swift */; };
-		0F3A5B112664F3A5001E2D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A5B0F2664F3A5001E2D1E /* Main.storyboard */; };
 		0F3A5B132664F3B5001E2D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A5B122664F3B5001E2D1E /* Assets.xcassets */; };
 		0F3A5B162664F3B5001E2D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F3A5B142664F3B5001E2D1E /* LaunchScreen.storyboard */; };
 		0F3A5B212664F3B5001E2D1E /* SmarthomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A5B202664F3B5001E2D1E /* SmarthomeTests.swift */; };
 		0F3A5B2C2664F3B5001E2D1E /* SmarthomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3A5B2B2664F3B5001E2D1E /* SmarthomeUITests.swift */; };
+		0F4AB7742665474A00525903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB7732665474A00525903 /* Main.storyboard */; };
+		0F4AB781266549A000525903 /* RoomsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB77C266549A000525903 /* RoomsPresenter.swift */; };
+		0F4AB782266549A000525903 /* RoomsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB77D266549A000525903 /* RoomsRouter.swift */; };
+		0F4AB783266549A000525903 /* RoomsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB77E266549A000525903 /* RoomsModels.swift */; };
+		0F4AB784266549A000525903 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB77F266549A000525903 /* RoomsViewController.swift */; };
+		0F4AB785266549A000525903 /* RoomsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB780266549A000525903 /* RoomsInteractor.swift */; };
+		0F4AB78726654AD800525903 /* RoomsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78626654AD800525903 /* RoomsViewController.xib */; };
+		0F4AB79D2665530700525903 /* UIFonts+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB79C266552FD00525903 /* UIFonts+Utils.swift */; };
+		0F4AB79E2665531E00525903 /* Rene.Bieder_Campton.Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78B266552A800525903 /* Rene.Bieder_Campton.Bold.otf */; };
+		0F4AB79F2665531E00525903 /* Rene.Bieder_Campton.Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB790266552A800525903 /* Rene.Bieder_Campton.Thin.otf */; };
+		0F4AB7A02665531E00525903 /* Rene.Bieder_Campton.Bold.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB796266552A800525903 /* Rene.Bieder_Campton.Bold.Italic.otf */; };
+		0F4AB7A12665531E00525903 /* Rene.Bieder_Campton.ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78C266552A800525903 /* Rene.Bieder_Campton.ExtraBold.otf */; };
+		0F4AB7A22665531E00525903 /* Rene.Bieder_Campton.SemiBold.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB795266552A800525903 /* Rene.Bieder_Campton.SemiBold.Italic.otf */; };
+		0F4AB7A32665531E00525903 /* Rene.Bieder_Campton.Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78E266552A800525903 /* Rene.Bieder_Campton.Book.otf */; };
+		0F4AB7A42665531E00525903 /* Rene.Bieder_Campton.Book.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB797266552A800525903 /* Rene.Bieder_Campton.Book.Italic.otf */; };
+		0F4AB7A52665531E00525903 /* Rene.Bieder_Campton.SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB799266552A800525903 /* Rene.Bieder_Campton.SemiBold.otf */; };
+		0F4AB7A62665531E00525903 /* Rene.Bieder_Campton.ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78A266552A800525903 /* Rene.Bieder_Campton.ExtraLight.otf */; };
+		0F4AB7A72665531E00525903 /* Rene.Bieder_Campton.ExtraBold.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB793266552A800525903 /* Rene.Bieder_Campton.ExtraBold.Italic.otf */; };
+		0F4AB7A82665531E00525903 /* Rene.Bieder_Campton.Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78D266552A800525903 /* Rene.Bieder_Campton.Light.otf */; };
+		0F4AB7A92665531E00525903 /* Rene.Bieder_Campton.Medium.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB798266552A800525903 /* Rene.Bieder_Campton.Medium.Italic.otf */; };
+		0F4AB7AA2665531E00525903 /* Rene.Bieder_Campton.Light.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB789266552A800525903 /* Rene.Bieder_Campton.Light.Italic.otf */; };
+		0F4AB7AB2665531E00525903 /* Rene.Bieder_Campton.ExtraLight.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB78F266552A800525903 /* Rene.Bieder_Campton.ExtraLight.Italic.otf */; };
+		0F4AB7AC2665531E00525903 /* Rene.Bieder_Campton.Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB791266552A800525903 /* Rene.Bieder_Campton.Medium.otf */; };
+		0F4AB7AD2665531E00525903 /* Rene.Bieder_Campton.Thin.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB794266552A800525903 /* Rene.Bieder_Campton.Thin.Italic.otf */; };
+		0F4AB7AE2665531E00525903 /* Rene.Bieder_Campton.Black.Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB792266552A800525903 /* Rene.Bieder_Campton.Black.Italic.otf */; };
+		0F4AB7B226655C7600525903 /* RoomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7B026655C7600525903 /* RoomCollectionViewCell.swift */; };
+		0F4AB7B326655C7600525903 /* RoomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB7B126655C7600525903 /* RoomCollectionViewCell.xib */; };
+		0F4AB7B826655FD400525903 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7B726655FCA00525903 /* UITableViewCell+Extensions.swift */; };
+		0F4AB7B926655FD400525903 /* UICollectionViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7B626655FCA00525903 /* UICollectionViewCell+Extensions.swift */; };
+		0F4AB7BA26655FD400525903 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7B526655FCA00525903 /* UIView+Extensions.swift */; };
+		0F4AB7BD26656C4F00525903 /* SmartHomeColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7BC26656C4F00525903 /* SmartHomeColors.swift */; };
+		0F4AB7BF26656E0400525903 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7BE26656E0400525903 /* RoomType.swift */; };
+		0F4AB7C626661E5400525903 /* SingleRoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7C126661E5400525903 /* SingleRoomPresenter.swift */; };
+		0F4AB7C726661E5400525903 /* SingleRoomRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7C226661E5400525903 /* SingleRoomRouter.swift */; };
+		0F4AB7C826661E5400525903 /* SingleRoomModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7C326661E5400525903 /* SingleRoomModels.swift */; };
+		0F4AB7C926661E5400525903 /* SingleRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7C426661E5400525903 /* SingleRoomViewController.swift */; };
+		0F4AB7CA26661E5400525903 /* SingleRoomInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4AB7C526661E5400525903 /* SingleRoomInteractor.swift */; };
+		0F4AB7CC26661EA400525903 /* SingleRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4AB7CB26661EA400525903 /* SingleRoomViewController.xib */; };
+		0FF612072671034D007B14F9 /* DeviceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612052671034D007B14F9 /* DeviceCollectionViewCell.swift */; };
+		0FF612082671034D007B14F9 /* DeviceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF612062671034D007B14F9 /* DeviceCollectionViewCell.xib */; };
+		0FF6120A26722F92007B14F9 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF6120926722F92007B14F9 /* DeviceType.swift */; };
+		0FF612162673B3D6007B14F9 /* LedLampPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612112673B3D6007B14F9 /* LedLampPresenter.swift */; };
+		0FF612172673B3D6007B14F9 /* LedLampRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612122673B3D6007B14F9 /* LedLampRouter.swift */; };
+		0FF612182673B3D6007B14F9 /* LedLampModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612132673B3D6007B14F9 /* LedLampModels.swift */; };
+		0FF612192673B3D6007B14F9 /* LedLampViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612142673B3D6007B14F9 /* LedLampViewController.swift */; };
+		0FF6121A2673B3D6007B14F9 /* LedLampInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF612152673B3D6007B14F9 /* LedLampInteractor.swift */; };
+		0FF6121C2673B427007B14F9 /* LedLampViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF6121B2673B427007B14F9 /* LedLampViewController.xib */; };
+		0FFADFF92677D28B00261391 /* SmartPlugControlPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFADFF42677D28A00261391 /* SmartPlugControlPresenter.swift */; };
+		0FFADFFA2677D28B00261391 /* SmartPlugControlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFADFF52677D28A00261391 /* SmartPlugControlRouter.swift */; };
+		0FFADFFB2677D28B00261391 /* SmartPlugControlModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFADFF62677D28A00261391 /* SmartPlugControlModels.swift */; };
+		0FFADFFC2677D28B00261391 /* SmartPlugControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFADFF72677D28A00261391 /* SmartPlugControlViewController.swift */; };
+		0FFADFFD2677D28B00261391 /* SmartPlugControlInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFADFF82677D28A00261391 /* SmartPlugControlInteractor.swift */; };
+		0FFADFFF2677D40E00261391 /* SmartPlugControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FFADFFE2677D40E00261391 /* SmartPlugControlViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +89,6 @@
 		0F3A5B062664F3A5001E2D1E /* Smarthome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smarthome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3A5B092664F3A5001E2D1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F3A5B0B2664F3A5001E2D1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F3A5B0D2664F3A5001E2D1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0F3A5B102664F3A5001E2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F3A5B122664F3B5001E2D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F3A5B152664F3B5001E2D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F3A5B172664F3B5001E2D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +98,59 @@
 		0F3A5B272664F3B5001E2D1E /* SmarthomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmarthomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3A5B2B2664F3B5001E2D1E /* SmarthomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarthomeUITests.swift; sourceTree = "<group>"; };
 		0F3A5B2D2664F3B5001E2D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F4AB7732665474A00525903 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0F4AB77C266549A000525903 /* RoomsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsPresenter.swift; sourceTree = "<group>"; };
+		0F4AB77D266549A000525903 /* RoomsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsRouter.swift; sourceTree = "<group>"; };
+		0F4AB77E266549A000525903 /* RoomsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsModels.swift; sourceTree = "<group>"; };
+		0F4AB77F266549A000525903 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		0F4AB780266549A000525903 /* RoomsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsInteractor.swift; sourceTree = "<group>"; };
+		0F4AB78626654AD800525903 /* RoomsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomsViewController.xib; sourceTree = "<group>"; };
+		0F4AB789266552A800525903 /* Rene.Bieder_Campton.Light.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Light.Italic.otf; sourceTree = "<group>"; };
+		0F4AB78A266552A800525903 /* Rene.Bieder_Campton.ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.ExtraLight.otf; sourceTree = "<group>"; };
+		0F4AB78B266552A800525903 /* Rene.Bieder_Campton.Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Bold.otf; sourceTree = "<group>"; };
+		0F4AB78C266552A800525903 /* Rene.Bieder_Campton.ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.ExtraBold.otf; sourceTree = "<group>"; };
+		0F4AB78D266552A800525903 /* Rene.Bieder_Campton.Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Light.otf; sourceTree = "<group>"; };
+		0F4AB78E266552A800525903 /* Rene.Bieder_Campton.Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Book.otf; sourceTree = "<group>"; };
+		0F4AB78F266552A800525903 /* Rene.Bieder_Campton.ExtraLight.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.ExtraLight.Italic.otf; sourceTree = "<group>"; };
+		0F4AB790266552A800525903 /* Rene.Bieder_Campton.Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Thin.otf; sourceTree = "<group>"; };
+		0F4AB791266552A800525903 /* Rene.Bieder_Campton.Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Medium.otf; sourceTree = "<group>"; };
+		0F4AB792266552A800525903 /* Rene.Bieder_Campton.Black.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Black.Italic.otf; sourceTree = "<group>"; };
+		0F4AB793266552A800525903 /* Rene.Bieder_Campton.ExtraBold.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.ExtraBold.Italic.otf; sourceTree = "<group>"; };
+		0F4AB794266552A800525903 /* Rene.Bieder_Campton.Thin.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Thin.Italic.otf; sourceTree = "<group>"; };
+		0F4AB795266552A800525903 /* Rene.Bieder_Campton.SemiBold.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.SemiBold.Italic.otf; sourceTree = "<group>"; };
+		0F4AB796266552A800525903 /* Rene.Bieder_Campton.Bold.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Bold.Italic.otf; sourceTree = "<group>"; };
+		0F4AB797266552A800525903 /* Rene.Bieder_Campton.Book.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Book.Italic.otf; sourceTree = "<group>"; };
+		0F4AB798266552A800525903 /* Rene.Bieder_Campton.Medium.Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.Medium.Italic.otf; sourceTree = "<group>"; };
+		0F4AB799266552A800525903 /* Rene.Bieder_Campton.SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rene.Bieder_Campton.SemiBold.otf; sourceTree = "<group>"; };
+		0F4AB79C266552FD00525903 /* UIFonts+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Utils.swift"; sourceTree = "<group>"; };
+		0F4AB7B026655C7600525903 /* RoomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCollectionViewCell.swift; sourceTree = "<group>"; };
+		0F4AB7B126655C7600525903 /* RoomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCollectionViewCell.xib; sourceTree = "<group>"; };
+		0F4AB7B526655FCA00525903 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		0F4AB7B626655FCA00525903 /* UICollectionViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		0F4AB7B726655FCA00525903 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		0F4AB7BC26656C4F00525903 /* SmartHomeColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeColors.swift; sourceTree = "<group>"; };
+		0F4AB7BE26656E0400525903 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		0F4AB7C126661E5400525903 /* SingleRoomPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomPresenter.swift; sourceTree = "<group>"; };
+		0F4AB7C226661E5400525903 /* SingleRoomRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomRouter.swift; sourceTree = "<group>"; };
+		0F4AB7C326661E5400525903 /* SingleRoomModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomModels.swift; sourceTree = "<group>"; };
+		0F4AB7C426661E5400525903 /* SingleRoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomViewController.swift; sourceTree = "<group>"; };
+		0F4AB7C526661E5400525903 /* SingleRoomInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleRoomInteractor.swift; sourceTree = "<group>"; };
+		0F4AB7CB26661EA400525903 /* SingleRoomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleRoomViewController.xib; sourceTree = "<group>"; };
+		0FF612052671034D007B14F9 /* DeviceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCollectionViewCell.swift; sourceTree = "<group>"; };
+		0FF612062671034D007B14F9 /* DeviceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeviceCollectionViewCell.xib; sourceTree = "<group>"; };
+		0FF6120926722F92007B14F9 /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		0FF612112673B3D6007B14F9 /* LedLampPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedLampPresenter.swift; sourceTree = "<group>"; };
+		0FF612122673B3D6007B14F9 /* LedLampRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedLampRouter.swift; sourceTree = "<group>"; };
+		0FF612132673B3D6007B14F9 /* LedLampModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedLampModels.swift; sourceTree = "<group>"; };
+		0FF612142673B3D6007B14F9 /* LedLampViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedLampViewController.swift; sourceTree = "<group>"; };
+		0FF612152673B3D6007B14F9 /* LedLampInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LedLampInteractor.swift; sourceTree = "<group>"; };
+		0FF6121B2673B427007B14F9 /* LedLampViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LedLampViewController.xib; sourceTree = "<group>"; };
+		0FFADFF42677D28A00261391 /* SmartPlugControlPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlugControlPresenter.swift; sourceTree = "<group>"; };
+		0FFADFF52677D28A00261391 /* SmartPlugControlRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlugControlRouter.swift; sourceTree = "<group>"; };
+		0FFADFF62677D28A00261391 /* SmartPlugControlModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlugControlModels.swift; sourceTree = "<group>"; };
+		0FFADFF72677D28A00261391 /* SmartPlugControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlugControlViewController.swift; sourceTree = "<group>"; };
+		0FFADFF82677D28A00261391 /* SmartPlugControlInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartPlugControlInteractor.swift; sourceTree = "<group>"; };
+		0FFADFFE2677D40E00261391 /* SmartPlugControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmartPlugControlViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +201,14 @@
 		0F3A5B082664F3A5001E2D1E /* Smarthome */ = {
 			isa = PBXGroup;
 			children = (
-				0F3A5B092664F3A5001E2D1E /* AppDelegate.swift */,
-				0F3A5B0B2664F3A5001E2D1E /* SceneDelegate.swift */,
-				0F3A5B0D2664F3A5001E2D1E /* ViewController.swift */,
-				0F3A5B0F2664F3A5001E2D1E /* Main.storyboard */,
-				0F3A5B122664F3B5001E2D1E /* Assets.xcassets */,
+				0F4AB77A266547D400525903 /* Models */,
+				0F4AB779266547C600525903 /* Services */,
+				0F4AB778266547BC00525903 /* Scenes */,
+				0F4AB777266547B000525903 /* Resources */,
+				0F4AB776266547A900525903 /* UI */,
+				0F4AB7752665477A00525903 /* AppConfiguaration */,
 				0F3A5B142664F3B5001E2D1E /* LaunchScreen.storyboard */,
+				0F4AB7732665474A00525903 /* Main.storyboard */,
 				0F3A5B172664F3B5001E2D1E /* Info.plist */,
 			);
 			path = Smarthome;
@@ -126,6 +230,199 @@
 				0F3A5B2D2664F3B5001E2D1E /* Info.plist */,
 			);
 			path = SmarthomeUITests;
+			sourceTree = "<group>";
+		};
+		0F4AB7752665477A00525903 /* AppConfiguaration */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A5B092664F3A5001E2D1E /* AppDelegate.swift */,
+				0F3A5B0B2664F3A5001E2D1E /* SceneDelegate.swift */,
+			);
+			path = AppConfiguaration;
+			sourceTree = "<group>";
+		};
+		0F4AB776266547A900525903 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB79A266552E700525903 /* Extensions */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0F4AB777266547B000525903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F3A5B122664F3B5001E2D1E /* Assets.xcassets */,
+				0F4AB7BB26656C3B00525903 /* Colors */,
+				0F4AB788266552A800525903 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0F4AB778266547BC00525903 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0FF6120B26737C96007B14F9 /* DeviceControl */,
+				0F4AB7C026661E1900525903 /* SingleRoom */,
+				0F4AB77B2665498000525903 /* ListRooms */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0F4AB779266547C600525903 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0F4AB77A266547D400525903 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7BE26656E0400525903 /* RoomType.swift */,
+				0FF6120926722F92007B14F9 /* DeviceType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F4AB77B2665498000525903 /* ListRooms */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7AF26655C5500525903 /* RoomCell */,
+				0F4AB77C266549A000525903 /* RoomsPresenter.swift */,
+				0F4AB77D266549A000525903 /* RoomsRouter.swift */,
+				0F4AB77E266549A000525903 /* RoomsModels.swift */,
+				0F4AB77F266549A000525903 /* RoomsViewController.swift */,
+				0F4AB780266549A000525903 /* RoomsInteractor.swift */,
+				0F4AB78626654AD800525903 /* RoomsViewController.xib */,
+			);
+			path = ListRooms;
+			sourceTree = "<group>";
+		};
+		0F4AB788266552A800525903 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB789266552A800525903 /* Rene.Bieder_Campton.Light.Italic.otf */,
+				0F4AB78A266552A800525903 /* Rene.Bieder_Campton.ExtraLight.otf */,
+				0F4AB78B266552A800525903 /* Rene.Bieder_Campton.Bold.otf */,
+				0F4AB78C266552A800525903 /* Rene.Bieder_Campton.ExtraBold.otf */,
+				0F4AB78D266552A800525903 /* Rene.Bieder_Campton.Light.otf */,
+				0F4AB78E266552A800525903 /* Rene.Bieder_Campton.Book.otf */,
+				0F4AB78F266552A800525903 /* Rene.Bieder_Campton.ExtraLight.Italic.otf */,
+				0F4AB790266552A800525903 /* Rene.Bieder_Campton.Thin.otf */,
+				0F4AB791266552A800525903 /* Rene.Bieder_Campton.Medium.otf */,
+				0F4AB792266552A800525903 /* Rene.Bieder_Campton.Black.Italic.otf */,
+				0F4AB793266552A800525903 /* Rene.Bieder_Campton.ExtraBold.Italic.otf */,
+				0F4AB794266552A800525903 /* Rene.Bieder_Campton.Thin.Italic.otf */,
+				0F4AB795266552A800525903 /* Rene.Bieder_Campton.SemiBold.Italic.otf */,
+				0F4AB796266552A800525903 /* Rene.Bieder_Campton.Bold.Italic.otf */,
+				0F4AB797266552A800525903 /* Rene.Bieder_Campton.Book.Italic.otf */,
+				0F4AB798266552A800525903 /* Rene.Bieder_Campton.Medium.Italic.otf */,
+				0F4AB799266552A800525903 /* Rene.Bieder_Campton.SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0F4AB79A266552E700525903 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7B426655FCA00525903 /* UIViews */,
+				0F4AB79B266552F300525903 /* Fonts */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0F4AB79B266552F300525903 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB79C266552FD00525903 /* UIFonts+Utils.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0F4AB7AF26655C5500525903 /* RoomCell */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7B026655C7600525903 /* RoomCollectionViewCell.swift */,
+				0F4AB7B126655C7600525903 /* RoomCollectionViewCell.xib */,
+			);
+			path = RoomCell;
+			sourceTree = "<group>";
+		};
+		0F4AB7B426655FCA00525903 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7B526655FCA00525903 /* UIView+Extensions.swift */,
+				0F4AB7B626655FCA00525903 /* UICollectionViewCell+Extensions.swift */,
+				0F4AB7B726655FCA00525903 /* UITableViewCell+Extensions.swift */,
+			);
+			path = UIViews;
+			sourceTree = "<group>";
+		};
+		0F4AB7BB26656C3B00525903 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				0F4AB7BC26656C4F00525903 /* SmartHomeColors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		0F4AB7C026661E1900525903 /* SingleRoom */ = {
+			isa = PBXGroup;
+			children = (
+				0FF6120426710332007B14F9 /* DeviceCell */,
+				0F4AB7C126661E5400525903 /* SingleRoomPresenter.swift */,
+				0F4AB7C226661E5400525903 /* SingleRoomRouter.swift */,
+				0F4AB7C326661E5400525903 /* SingleRoomModels.swift */,
+				0F4AB7C426661E5400525903 /* SingleRoomViewController.swift */,
+				0F4AB7CB26661EA400525903 /* SingleRoomViewController.xib */,
+				0F4AB7C526661E5400525903 /* SingleRoomInteractor.swift */,
+			);
+			path = SingleRoom;
+			sourceTree = "<group>";
+		};
+		0FF6120426710332007B14F9 /* DeviceCell */ = {
+			isa = PBXGroup;
+			children = (
+				0FF612052671034D007B14F9 /* DeviceCollectionViewCell.swift */,
+				0FF612062671034D007B14F9 /* DeviceCollectionViewCell.xib */,
+			);
+			path = DeviceCell;
+			sourceTree = "<group>";
+		};
+		0FF6120B26737C96007B14F9 /* DeviceControl */ = {
+			isa = PBXGroup;
+			children = (
+				0FFADFF32677D23C00261391 /* SmartPlug */,
+				0FF6120C26737D79007B14F9 /* LedLampControl */,
+			);
+			path = DeviceControl;
+			sourceTree = "<group>";
+		};
+		0FF6120C26737D79007B14F9 /* LedLampControl */ = {
+			isa = PBXGroup;
+			children = (
+				0FF612112673B3D6007B14F9 /* LedLampPresenter.swift */,
+				0FF612122673B3D6007B14F9 /* LedLampRouter.swift */,
+				0FF612132673B3D6007B14F9 /* LedLampModels.swift */,
+				0FF612142673B3D6007B14F9 /* LedLampViewController.swift */,
+				0FF6121B2673B427007B14F9 /* LedLampViewController.xib */,
+				0FF612152673B3D6007B14F9 /* LedLampInteractor.swift */,
+			);
+			path = LedLampControl;
+			sourceTree = "<group>";
+		};
+		0FFADFF32677D23C00261391 /* SmartPlug */ = {
+			isa = PBXGroup;
+			children = (
+				0FFADFF42677D28A00261391 /* SmartPlugControlPresenter.swift */,
+				0FFADFF52677D28A00261391 /* SmartPlugControlRouter.swift */,
+				0FFADFF62677D28A00261391 /* SmartPlugControlModels.swift */,
+				0FFADFF72677D28A00261391 /* SmartPlugControlViewController.swift */,
+				0FFADFFE2677D40E00261391 /* SmartPlugControlViewController.xib */,
+				0FFADFF82677D28A00261391 /* SmartPlugControlInteractor.swift */,
+			);
+			path = SmartPlug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +528,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4AB7AE2665531E00525903 /* Rene.Bieder_Campton.Black.Italic.otf in Resources */,
+				0F4AB7AB2665531E00525903 /* Rene.Bieder_Campton.ExtraLight.Italic.otf in Resources */,
+				0F4AB7A52665531E00525903 /* Rene.Bieder_Campton.SemiBold.otf in Resources */,
+				0F4AB7742665474A00525903 /* Main.storyboard in Resources */,
+				0FF612082671034D007B14F9 /* DeviceCollectionViewCell.xib in Resources */,
 				0F3A5B162664F3B5001E2D1E /* LaunchScreen.storyboard in Resources */,
+				0F4AB7A92665531E00525903 /* Rene.Bieder_Campton.Medium.Italic.otf in Resources */,
+				0F4AB7AC2665531E00525903 /* Rene.Bieder_Campton.Medium.otf in Resources */,
+				0FFADFFF2677D40E00261391 /* SmartPlugControlViewController.xib in Resources */,
+				0F4AB7A32665531E00525903 /* Rene.Bieder_Campton.Book.otf in Resources */,
+				0F4AB7A42665531E00525903 /* Rene.Bieder_Campton.Book.Italic.otf in Resources */,
+				0F4AB7A02665531E00525903 /* Rene.Bieder_Campton.Bold.Italic.otf in Resources */,
+				0F4AB79F2665531E00525903 /* Rene.Bieder_Campton.Thin.otf in Resources */,
 				0F3A5B132664F3B5001E2D1E /* Assets.xcassets in Resources */,
-				0F3A5B112664F3A5001E2D1E /* Main.storyboard in Resources */,
+				0F4AB7A22665531E00525903 /* Rene.Bieder_Campton.SemiBold.Italic.otf in Resources */,
+				0F4AB7A12665531E00525903 /* Rene.Bieder_Campton.ExtraBold.otf in Resources */,
+				0F4AB7A62665531E00525903 /* Rene.Bieder_Campton.ExtraLight.otf in Resources */,
+				0FF6121C2673B427007B14F9 /* LedLampViewController.xib in Resources */,
+				0F4AB7AA2665531E00525903 /* Rene.Bieder_Campton.Light.Italic.otf in Resources */,
+				0F4AB7AD2665531E00525903 /* Rene.Bieder_Campton.Thin.Italic.otf in Resources */,
+				0F4AB79E2665531E00525903 /* Rene.Bieder_Campton.Bold.otf in Resources */,
+				0F4AB7A72665531E00525903 /* Rene.Bieder_Campton.ExtraBold.Italic.otf in Resources */,
+				0F4AB7CC26661EA400525903 /* SingleRoomViewController.xib in Resources */,
+				0F4AB7B326655C7600525903 /* RoomCollectionViewCell.xib in Resources */,
+				0F4AB78726654AD800525903 /* RoomsViewController.xib in Resources */,
+				0F4AB7A82665531E00525903 /* Rene.Bieder_Campton.Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +578,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F3A5B0E2664F3A5001E2D1E /* ViewController.swift in Sources */,
+				0F4AB782266549A000525903 /* RoomsRouter.swift in Sources */,
+				0F4AB7BF26656E0400525903 /* RoomType.swift in Sources */,
+				0FFADFFC2677D28B00261391 /* SmartPlugControlViewController.swift in Sources */,
+				0FFADFF92677D28B00261391 /* SmartPlugControlPresenter.swift in Sources */,
 				0F3A5B0A2664F3A5001E2D1E /* AppDelegate.swift in Sources */,
+				0F4AB7C826661E5400525903 /* SingleRoomModels.swift in Sources */,
+				0F4AB785266549A000525903 /* RoomsInteractor.swift in Sources */,
+				0FF612172673B3D6007B14F9 /* LedLampRouter.swift in Sources */,
+				0F4AB7C726661E5400525903 /* SingleRoomRouter.swift in Sources */,
+				0F4AB7BD26656C4F00525903 /* SmartHomeColors.swift in Sources */,
+				0F4AB7B926655FD400525903 /* UICollectionViewCell+Extensions.swift in Sources */,
+				0F4AB7BA26655FD400525903 /* UIView+Extensions.swift in Sources */,
+				0F4AB784266549A000525903 /* RoomsViewController.swift in Sources */,
+				0FFADFFA2677D28B00261391 /* SmartPlugControlRouter.swift in Sources */,
+				0FF612192673B3D6007B14F9 /* LedLampViewController.swift in Sources */,
 				0F3A5B0C2664F3A5001E2D1E /* SceneDelegate.swift in Sources */,
+				0FFADFFB2677D28B00261391 /* SmartPlugControlModels.swift in Sources */,
+				0FF612072671034D007B14F9 /* DeviceCollectionViewCell.swift in Sources */,
+				0F4AB79D2665530700525903 /* UIFonts+Utils.swift in Sources */,
+				0F4AB7C626661E5400525903 /* SingleRoomPresenter.swift in Sources */,
+				0F4AB7B826655FD400525903 /* UITableViewCell+Extensions.swift in Sources */,
+				0FF612182673B3D6007B14F9 /* LedLampModels.swift in Sources */,
+				0FF6121A2673B3D6007B14F9 /* LedLampInteractor.swift in Sources */,
+				0FFADFFD2677D28B00261391 /* SmartPlugControlInteractor.swift in Sources */,
+				0F4AB7CA26661E5400525903 /* SingleRoomInteractor.swift in Sources */,
+				0F4AB7B226655C7600525903 /* RoomCollectionViewCell.swift in Sources */,
+				0F4AB7C926661E5400525903 /* SingleRoomViewController.swift in Sources */,
+				0FF6120A26722F92007B14F9 /* DeviceType.swift in Sources */,
+				0FF612162673B3D6007B14F9 /* LedLampPresenter.swift in Sources */,
+				0F4AB783266549A000525903 /* RoomsModels.swift in Sources */,
+				0F4AB781266549A000525903 /* RoomsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +644,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0F3A5B0F2664F3A5001E2D1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0F3A5B102664F3A5001E2D1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0F3A5B142664F3B5001E2D1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,7 +786,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nl.ressemiah.Smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +805,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nl.ressemiah.Smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
