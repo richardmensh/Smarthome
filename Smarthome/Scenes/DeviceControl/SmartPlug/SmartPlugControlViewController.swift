@@ -20,7 +20,7 @@ class SmartPlugControlViewController: UIViewController, SmartPlugControlDisplayL
 	var interactor: SmartPlugControlBusinessLogic?
 	var router: (NSObjectProtocol & SmartPlugControlRoutingLogic & SmartPlugControlDataPassing)?
 	
-	// MARK: Setup
+	// MARK: Setup  sd
 	
 	private func setup() {
 		let viewController = self
